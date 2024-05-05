@@ -93,11 +93,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-    --font-1: "Alef", sans-serif;
+    --font-1: "Bellefair", sans-serif;
     /* --font-2: "Cormorant Garamond", Serif; */
-    --font-1: "Alef", sans-serif;
-    --font-3: "Alef", sans-serif;
-    --font-4: "Alef", sans-serif;
+    --font-1: "Bellefair", sans-serif;
+    --font-3: "Bellefair", sans-serif;
+    --font-4: "Bellefair", sans-serif;
 
   /* monospace
    */
@@ -4906,10 +4906,10 @@ body.menu-is-open {
 
 .whatsapp {
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	left:30px;
+	width:50px;
+	height:50px;
+	bottom:25px;
+	left:25px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -4919,5 +4919,5 @@ body.menu-is-open {
 }
 
 .my-whatsapp{
-	margin-top:16px;
+	margin-top:11px;
 }
