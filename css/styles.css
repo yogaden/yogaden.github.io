@@ -93,10 +93,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-    --font-1: "Newsreader", Serif;
-    --font-2: "Cormorant Garamond", Serif;
-    --font-3: "Inter", Sans-serif;
-    --font-4: "Cormorant SC", Serif;
+    --font-1: "Alef", sans-serif;
+    /* --font-2: "Cormorant Garamond", Serif; */
+    --font-1: "Alef", sans-serif;
+    --font-3: "Alef", sans-serif;
+    --font-4: "Alef", sans-serif;
 
   /* monospace
    */
@@ -112,7 +113,7 @@
    * color-2(#D1C1B3)
    * color-3(#595968)
    */
-    --color-1                     : hsla(12, 75%, 65%, 1);
+    --color-1                     : hsla(28, 25%, 76%, 1);
     --color-2                     : hsla(28, 25%, 76%, 1);
     --color-3                     : hsla(240, 8%, 38%, 1);
 
@@ -4901,4 +4902,22 @@ body.menu-is-open {
     .menu-list__item-desc {
         padding-right: var(--gutter);
     }
+}
+
+.whatsapp {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.my-whatsapp{
+	margin-top:16px;
 }
