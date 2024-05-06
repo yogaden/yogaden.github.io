@@ -4921,3 +4921,26 @@ body.menu-is-open {
 .my-whatsapp{
 	margin-top:11px;
 }
+
+
+.week-img {
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+@media screen and (max-width: 1300px) {
+    .week-img {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .week-img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
