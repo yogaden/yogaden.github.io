@@ -3825,6 +3825,7 @@ body.menu-is-open {
  *
  * ------------------------------------------------------------------- */
 .s-about {
+    /* background-color: #f2ece5; */
     padding-top   : var(--vspace-6);
     padding-bottom: 0;
 }
@@ -4153,6 +4154,44 @@ body.menu-is-open {
 
 
 /* ===================================================================
+ * WEEK VIEW
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+.s-week {
+    padding-top     : var(--vspace-2);
+    padding-bottom  : var(--vspace-1_5);
+    background-color: var(--color-gray-3);
+}
+
+.s-week__title {
+    margin-top: 0;
+    font-size : clamp(var(--text-xxl), 10vw, var(--text-display-2));
+}
+
+.week-img {
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+@media screen and (max-width: 1300px) {
+    .week-img {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .week-img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+/* ===================================================================
  * # TESTIMONIALS
  *
  *
@@ -4220,7 +4259,7 @@ body.menu-is-open {
     display    : block;
     font-family: var(--font-3);
     font-weight: 500;
-    font-size  : var(--text-sm);
+    font-size  : var(--text-md);
     line-height: 1.2;
     color      : var(--color-text-dark);
     position   : relative;
@@ -4923,24 +4962,5 @@ body.menu-is-open {
 }
 
 
-.week-img {
-    padding-left: 27%;
-    padding-right: 27%;
-}
 
-@media screen and (max-width: 1300px) {
-    .week-img {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-}
-
-@media screen and (max-width: 800px) {
-    .week-img {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-}
 

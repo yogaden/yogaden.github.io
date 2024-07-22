@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js" dir="rtl">
+<html lang="en" class="js" dir="rtl">
   <head>
     <!--- basic page needs
     ================================================== -->
@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Bellefair&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&amp;family=Bellefair&amp;display=swap"
       rel="stylesheet"
     />
     <link
@@ -36,7 +36,7 @@
     <link rel="manifest" href="site.webmanifest" />
   </head>
 
-  <body id="top">
+  <body id="top" contenteditable="false">
     <!-- preloader
     ================================================== -->
     <div id="preloader">
@@ -116,7 +116,7 @@
               </li>
 
               <li>
-                <a href="#0">
+                <a href="https://www.instagram.com/yarden_amitai/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -156,8 +156,7 @@
             </h1>
 
             <p class="s-intro__desc lead">
-              תקציר תקציר תקציר תקציר תקציר תקציר תקציר מילים מילים מילים מילים
-              תקציר מילים מילים
+              סטודיו ליוגה של ירדן אמיתי למתרגלי ויניאסה אשטנגה יוגה
             </p>
           </div>
         </div>
@@ -178,7 +177,7 @@
                 <path
                   d="m5.214 14.522s4.505 4.502 6.259 6.255c.146.147.338.22.53.22s.384-.073.53-.22c1.754-1.752 6.249-6.244 6.249-6.244.144-.144.216-.334.217-.523 0-.193-.074-.386-.221-.534-.293-.293-.766-.294-1.057-.004l-4.968 4.968v-14.692c0-.414-.336-.75-.75-.75s-.75.336-.75.75v14.692l-4.979-4.978c-.289-.289-.761-.287-1.054.006-.148.148-.222.341-.221.534 0 .189.071.377.215.52z"
                   fill-rule="nonzero"
-                />
+                ></path>
               </svg>
             </div>
           </a>
@@ -188,10 +187,10 @@
       <!-- end s-intro -->
 
       <!-- # week -->
-      <section id="week" class="s-testimonials">
+      <section id="week" class="s-week">
         <div class="s-week__content">
           <div>
-            <h3 class="s-testimonials__title text-center">לוז השבוע</h3>
+            <h3 class="s-week__title text-center">לוז השבוע</h3>
             <img class="week-img" src="images/week.png" alt="" />
           </div>
           <!-- end column -->
@@ -217,21 +216,13 @@
                   <img
                     class="s-about__media-big"
                     src="images/home-about-img.jpg"
-                    srcset="
-                      images/home-about-img.jpg    1x,
-                      images/home-about-img@2x.jpg 2x
-                    "
                     alt=""
                   />
-                  <img
+                  <!-- <img
                     class="s-about__media-small"
                     src="images/home-about-img-small.jpg"
-                    srcset="
-                      images/home-about-img-small.jpg 1x,
-                      home-about-img-small@2x.jpg     2x
-                    "
                     alt=""
-                  />
+                  /> -->
                 </div>
               </div>
             </div>
@@ -273,20 +264,24 @@
       <section id="testimonials" class="s-testimonials">
         <div class="row s-testimonials__content">
           <div class="column xl-12">
-            <h3 class="s-testimonials__title text-center">מתאמנות/ים שלי</h3>
+            <h3 class="s-testimonials__title text-center">מילים מהלב</h3>
 
             <div class="swiper-container s-testimonials__slider">
               <div class="swiper-wrapper">
                 <div class="s-testimonials__slide swiper-slide">
                   <div class="s-testimonials__author">
-                    <img
+                    <!-- <img
                       src="images/avatars/user-02.jpg"
                       alt="Author image"
                       class="s-testimonials__avatar"
-                    />
-                    <cite class="s-testimonials__cite">
-                      John Rockefeller
-                      <span>Cleveland, Ohio</span>
+                    /> -->
+                    <cite
+                      class="s-testimonials__cite"
+                      ,
+                      style="text-align: center"
+                    >
+                      טל הנדל שיטרית
+                      <span>שיעורי יוגה</span>
                     </cite>
                   </div>
                   <p>
@@ -301,14 +296,18 @@
 
                 <div class="s-testimonials__slide swiper-slide">
                   <div class="s-testimonials__author">
-                    <img
+                    <!-- <img
                       src="images/avatars/user-03.jpg"
                       alt="Author image"
                       class="s-testimonials__avatar"
-                    />
-                    <cite class="s-testimonials__cite">
-                      Andrew Carnegie
-                      <span>Pittsburgh, Pennsylvania</span>
+                    /> -->
+                    <cite
+                      class="s-testimonials__cite"
+                      ,
+                      style="text-align: center"
+                    >
+                      לירון בצלאל
+                      <span>שיעורי יוגה</span>
                     </cite>
                   </div>
                   <p>
@@ -323,14 +322,18 @@
 
                 <div class="s-testimonials__slide swiper-slide">
                   <div class="s-testimonials__author">
-                    <img
+                    <!-- <img
                       src="images/avatars/user-01.jpg"
                       alt="Author image"
                       class="s-testimonials__avatar"
-                    />
-                    <cite class="s-testimonials__cite">
-                      John Morgan
-                      <span>New York City</span>
+                    /> -->
+                    <cite
+                      class="s-testimonials__cite"
+                      ,
+                      style="text-align: center"
+                    >
+                      אהוד מאיר
+                      <span>שיעורי יוגה</span>
                     </cite>
                   </div>
                   <p>
@@ -339,28 +342,6 @@
                     ipsam. Autem eaque officia cum exercitationem sunt
                     voluptatum accusamus. Quasi voluptas eius distinctio.
                     Voluptatem dignissimos ut.
-                  </p>
-                </div>
-                <!-- end s-testimonials__slide -->
-
-                <div class="s-testimonials__slide swiper-slide">
-                  <div class="s-testimonials__author">
-                    <img
-                      src="images/avatars/user-06.jpg"
-                      alt="Author image"
-                      class="s-testimonials__avatar"
-                    />
-                    <cite class="s-testimonials__cite">
-                      Henry Ford
-                      <span>Dearborn, Michigan</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc
-                    ac augue. Fusce vel dui. In ac felis quis tortor malesuada
-                    pretium. Curabitur vestibulum aliquam leo. Qui sed at
-                    corrupti expedita voluptas odit. Nihil ea quia nesciunt.
-                    Ducimus aut sed ipsam.
                   </p>
                 </div>
                 <!-- end s-testimonials__slide -->
@@ -383,7 +364,7 @@
         <div id="plans" class="row s-menublock__top">
           <div class="column xl-8 lg-12">
             <div class="s-menublock__content-header section-header">
-              <h2 class="text-display-title with-line">תוכניות</h2>
+              <h2 class="text-display-title with-line">הסטודיו</h2>
               <p class="attention-getter">
                 תקציר תקציר תקציר תקציר תקציר תקציר תקציר תקציר תקציר תקציר
                 תקציר תקציר תקציר תקציר
@@ -409,7 +390,7 @@
                   <path
                     d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z"
                     fill-rule="nonzero"
-                  />
+                  ></path>
                 </svg>
               </div>
               <div class="menublock-btn-next">
@@ -424,7 +405,7 @@
                   <path
                     d="m9.474 5.209s-4.501 4.505-6.254 6.259c-.147.146-.22.338-.22.53s.073.384.22.53c1.752 1.754 6.252 6.257 6.252 6.257.145.145.336.217.527.217.191-.001.383-.074.53-.221.293-.293.294-.766.004-1.057l-4.976-4.976h14.692c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-14.692l4.978-4.979c.289-.289.287-.761-.006-1.054-.147-.147-.339-.221-.53-.221-.191-.001-.38.071-.525.215z"
                     fill-rule="nonzero"
-                  />
+                  ></path>
                 </svg>
               </div>
             </div>
@@ -439,22 +420,15 @@
                 <div class="s-menublock__slide swiper-slide">
                   <div class="menublock-item">
                     <div class="menublock-item__thumb">
-                      <img
-                        src="images/menu/steak.jpg"
-                        srcset="
-                          images/menu/steak.jpg    1x,
-                          images/menu/steak@2x.jpg 2x
-                        "
-                        alt=""
-                      />
+                      <img src="images/menu/steak.jpg" alt="" />
                     </div>
                     <div class="menublock-item__text">
-                      <h5>תוכנית</h5>
+                      <h5>שיעורי יוגה</h5>
                       <p>תקציר תוכנית</p>
                     </div>
-                    <div class="menublock-item__price-wrap">
+                    <!-- <div class="menublock-item__price-wrap">
                       <div class="menublock-item__price"><span>₪</span>18</div>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- end menublock-item -->
                 </div>
@@ -463,22 +437,15 @@
                 <div class="s-menublock__slide swiper-slide">
                   <div class="menublock-item">
                     <div class="menublock-item__thumb">
-                      <img
-                        src="images/menu/pasta.jpg"
-                        srcset="
-                          images/menu/pasta.jpg    1x,
-                          images/menu/pasta@2x.jpg 2x
-                        "
-                        alt=""
-                      />
+                      <img src="images/menu/pasta.jpg" alt="" />
                     </div>
                     <div class="menublock-item__text">
-                      <h5>תוכנית</h5>
+                      <h5>שיעורים פרטיים</h5>
                       <p>תקציר תוכנית</p>
                     </div>
-                    <div class="menublock-item__price-wrap">
+                    <!-- <div class="menublock-item__price-wrap">
                       <div class="menublock-item__price"><span>₪</span>15</div>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- end menublock-item -->
                 </div>
@@ -487,70 +454,15 @@
                 <div class="s-menublock__slide swiper-slide">
                   <div class="menublock-item">
                     <div class="menublock-item__thumb">
-                      <img
-                        src="images/menu/toast.jpg"
-                        srcset="
-                          images/menu/toast.jpg    1x,
-                          images/menu/toast@2x.jpg 2x
-                        "
-                        alt=""
-                      />
+                      <img src="images/menu/toast.jpg" alt="" />
                     </div>
                     <div class="menublock-item__text">
-                      <h5>תוכנית</h5>
+                      <h5>סדנאות</h5>
                       <p>תקציר תוכנית</p>
                     </div>
-                    <div class="menublock-item__price-wrap">
+                    <!-- <div class="menublock-item__price-wrap">
                       <div class="menublock-item__price"><span>₪</span>10</div>
-                    </div>
-                  </div>
-                  <!-- end menublock-item -->
-                </div>
-                <!-- end s-menublock__slide -->
-
-                <div class="s-menublock__slide swiper-slide">
-                  <div class="menublock-item">
-                    <div class="menublock-item__thumb">
-                      <img
-                        src="images/menu/icecream.jpg"
-                        srcset="
-                          images/menu/icecream.jpg    1x,
-                          images/menu/icecream@2x.jpg 2x
-                        "
-                        alt=""
-                      />
-                    </div>
-                    <div class="menublock-item__text">
-                      <h5>תוכנית</h5>
-                      <p>תקציר תוכנית</p>
-                    </div>
-                    <div class="menublock-item__price-wrap">
-                      <div class="menublock-item__price"><span>₪</span>4</div>
-                    </div>
-                  </div>
-                  <!-- end menublock-item -->
-                </div>
-                <!-- end s-menublock__slide -->
-
-                <div class="s-menublock__slide swiper-slide">
-                  <div class="menublock-item">
-                    <div class="menublock-item__thumb">
-                      <img
-                        src="images/menu/yogurt.jpg"
-                        srcset="
-                          images/menu/yogurt.jpg    1x,
-                          images/menu/yogurt@2x.jpg 2x
-                        "
-                        alt=""
-                      />
-                    </div>
-                    <div class="menublock-item__text">
-                      <h5>תוכנית</h5>
-                      <p>תקציר תוכנית</p>
-                    </div>
-                    <div class="menublock-item__price-wrap">
-                      <div class="menublock-item__price"><span>₪</span>4</div>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- end menublock-item -->
                 </div>
@@ -588,7 +500,9 @@
           <div class="column xl-6 md-12 s-footer__block s-footer__info">
             <div class="row">
               <div class="column xl-6 lg-12">
-                <a href="mailto:yogaden@gmail.com">yogaden@gmail.com</a>
+                <a href="mailto:yardenhakoun@gmail.com"
+                  >yardenhakoun@gmail.com</a
+                >
               </div>
               <div class="column xl-6 lg-12">
                 <a href="tel:+972528499584">052-8499584</a>
@@ -603,7 +517,7 @@
           <div class="column xl-6 lg-12">
             <ul class="s-footer__social social-list">
               <li>
-                <a href="#0">
+                <a href="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -619,7 +533,7 @@
                 </a>
               </li>
               <li>
-                <a href="#0">
+                <a href="https://www.instagram.com/yarden_amitai/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -667,7 +581,7 @@
               <path
                 d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z"
                 fill-rule="nonzero"
-              />
+              ></path>
             </svg>
           </a>
           <span>חזרה</span>
@@ -676,7 +590,7 @@
       </footer>
       <!-- end s-footer -->
       <a
-        href="https://wa.me/+972528499584?text=הודעה מוכנה מראש"
+        href="https://wa.me/+972528499584?text=שלום, מעוניין/ת לקבל פרטים על שיעורי היוגה"
         class="whatsapp"
         target="_blank"
       >
