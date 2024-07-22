@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="js" dir="rtl">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5BDN3GLL7Q"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5BDN3GLL7Q");
+    </script>
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8" />
@@ -82,9 +96,9 @@
             <li class="current">
               <a class="menu-button" href="#intro">בית</a>
             </li>
-            <li><a class="menu-button" href="#week">לוז השבוע</a></li>
+            <li><a class="menu-button" href="#plans">הסטודיו</a></li>
+            <li><a class="menu-button" href="#week">מערכת שעות</a></li>
             <li><a class="menu-button" href="#about">על עצמי</a></li>
-            <li><a class="menu-button" href="#plans">תוכניות</a></li>
           </ul>
           <!-- s-header__nav-links -->
 
@@ -163,7 +177,7 @@
         <!-- s-intro__content -->
 
         <div class="s-intro__scroll-down">
-          <a href="#week" class="smoothscroll">
+          <a href="#plans" class="smoothscroll">
             <span class="scroll-text u-screen-reader-text">Scroll Down</span>
             <div class="scroll-icon">
               <svg
@@ -186,11 +200,145 @@
       </section>
       <!-- end s-intro -->
 
+      <!-- # menu block
+        ================================================== -->
+      <section class="s-menublock">
+        <div id="plans" class="row s-menublock__top">
+          <div class="column xl-8 lg-12">
+            <div class="s-menublock__content-header section-header">
+              <h2 class="text-display-title with-line">הסטודיו</h2>
+              <p class="attention-getter">
+                הסטודיו שלנו הוא בית לתרגול יוגה. היוגה נוגעת במכלול שלם של כלל
+                מערכות הגוף. בשיעורי היוגה אנחנו מתחברים לנשימה. בחיים העמוסים
+                והלחוצים של כולנו אין לנו זמן להתבונן בגוף הנושם שלנו, בדופק,
+                בפעימות הלב. תרגול היוגה מאפשר זמני עצירה בהם קיימת התבוננות
+                פנימה, והקשבה לנשימה. הנשימה הופכת אט אט לעוגן, דרכה אפשר למצוא
+                בתוכנו הרפיה ושלווה הן בתרגול היוגה גם כשהוא מאתגר והן מחוץ
+                למזרן בחיי היום יום סביב האתגרים השונים שמגיעים אלינו דרך קבע.
+                תרגול היוגה מאפשר לגוף להתחזק, בגמישות ובכוח הפיזי, התרגול הוא
+                דינאמי ונוגע במגוון רחב של אברי הגוף ומערכות הגוף השונות מהמערכת
+                הפראסימפטטית ועד לשרירי הליבה. היוגה ביכולותיה הפלאיות מתאימה גם
+                לפציעות פיזיות ונפשיות והיא בעיקר מאפשר זמן של סגירת מסך לרעשים
+                שבחוץ וחיבור פנימה. כולנו שונים וכל אחד מחפש ביוגה את עצמו בדרך
+                שונה, היוגה מאפשרת לכל אדם, בכל רמת גמישות, בכל מקום בעולם לפרוס
+                מזרן ולהתחיל לתרגל. בסטודיו שלנו לכל אחד ולכל אחת יש מקום
+                והתרגילים מותאמים לרמות השונות הסטודיו פתוח לכל אדם שרוצה להתחיל
+                לתרגל יוגה. בסטודיו מתקיימים שיעורים בקבוצות, שיעורים אחד על אחד
+                וסדנאות.
+              </p>
+            </div>
+            <!-- end s-menublock__content-header -->
+          </div>
+        </div>
+        <!-- end s-menublock__top -->
+
+        <div class="row">
+          <div class="column xl-12 menublock__slider-nav">
+            <div class="menublock-buttons">
+              <div class="menublock-btn-prev">
+                <svg
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z"
+                    fill-rule="nonzero"
+                  ></path>
+                </svg>
+              </div>
+              <div class="menublock-btn-next">
+                <svg
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m9.474 5.209s-4.501 4.505-6.254 6.259c-.147.146-.22.338-.22.53s.073.384.22.53c1.752 1.754 6.252 6.257 6.252 6.257.145.145.336.217.527.217.191-.001.383-.074.53-.221.293-.293.294-.766.004-1.057l-4.976-4.976h14.692c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-14.692l4.978-4.979c.289-.289.287-.761-.006-1.054-.147-.147-.339-.221-.53-.221-.191-.001-.38.071-.525.215z"
+                    fill-rule="nonzero"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- end s-menublock__slider-nav -->
+        </div>
+
+        <div class="row s-menublock__slider-wrap">
+          <div class="column xl-12">
+            <div class="swiper-container s-menublock__slider">
+              <div class="swiper-wrapper">
+                <div class="s-menublock__slide swiper-slide">
+                  <div class="menublock-item">
+                    <div class="menublock-item__thumb">
+                      <img src="images/menu/steak.jpg" alt="" />
+                    </div>
+                    <div class="menublock-item__text">
+                      <h5>שיעורי יוגה</h5>
+                      <p>תקציר תוכנית</p>
+                    </div>
+                    <!-- <div class="menublock-item__price-wrap">
+                        <div class="menublock-item__price"><span>₪</span>18</div>
+                      </div> -->
+                  </div>
+                  <!-- end menublock-item -->
+                </div>
+                <!-- end s-menublock__slide -->
+
+                <div class="s-menublock__slide swiper-slide">
+                  <div class="menublock-item">
+                    <div class="menublock-item__thumb">
+                      <img src="images/menu/pasta.jpg" alt="" />
+                    </div>
+                    <div class="menublock-item__text">
+                      <h5>שיעורים פרטיים</h5>
+                      <p>תקציר תוכנית</p>
+                    </div>
+                    <!-- <div class="menublock-item__price-wrap">
+                        <div class="menublock-item__price"><span>₪</span>15</div>
+                      </div> -->
+                  </div>
+                  <!-- end menublock-item -->
+                </div>
+                <!-- end s-menublock__slide -->
+
+                <div class="s-menublock__slide swiper-slide">
+                  <div class="menublock-item">
+                    <div class="menublock-item__thumb">
+                      <img src="images/menu/toast.jpg" alt="" />
+                    </div>
+                    <div class="menublock-item__text">
+                      <h5>סדנאות</h5>
+                      <p>תקציר תוכנית</p>
+                    </div>
+                    <!-- <div class="menublock-item__price-wrap">
+                        <div class="menublock-item__price"><span>₪</span>10</div>
+                      </div> -->
+                  </div>
+                  <!-- end menublock-item -->
+                </div>
+                <!-- end s-menublock__slide -->
+              </div>
+              <!-- end swiper-wrapper -->
+            </div>
+            <!-- end s-menublock__slider -->
+          </div>
+        </div>
+        <!-- s-menublock__slider-wrap -->
+      </section>
+      <!-- end s-menublock -->
+
       <!-- # week -->
       <section id="week" class="s-week">
         <div class="s-week__content">
           <div>
-            <h3 class="s-week__title text-center">לוז השבוע</h3>
+            <h3 class="s-week__title text-center">מערכת שעות</h3>
             <img class="week-img" src="images/week.png" alt="" />
           </div>
           <!-- end column -->
@@ -208,8 +356,10 @@
               <h2 class="text-display-title with-line">על עצמי</h2>
               <div class="s-about__content-header-inner">
                 <p class="text-desc">
-                  על עצמי על עצמי על עצמי על עצמי על עצמי על עצמי על עצמי על
-                  עצמי על עצמי על עצמי על עצמי על עצמי על עצמי על עצמי
+                  שמי ירדן, בת 33, אמא ובת הזוג של איתן, חיה את דרך היוגה והיום
+                  גם מלמדת, אני בוגרת קורס מורים ליוגה במכון וינגייט ומודה
+                  למורים שלי שאפשרו לי למידה, חקירה והעמקה בדרך היוגה. החיים
+                  בזרימתם הפגישו אותי עם היוגה והיוגה אפשרה לי מפגש עם עצמי.
                 </p>
 
                 <div class="s-about__content-media">
@@ -230,17 +380,20 @@
 
             <div class="s-about__content-main">
               <p class="attention-getter">
-                פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1
-                פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1 פסקה 1פסקה 1 פסקה 1 פסקה 1
-                פסקה 1
+                יוגה עבורי זה זמן שמאפשר לי לחזור, לנשימה שלי, לגוף הפיזי, ולנפש
+                שזקוקה לתשומת לב. דרך היוגה הבנתי שכשאני מאפשרת לעצמי לעצור רגע
+                ולהקשיב לקולות שנמצאים בי אני בעצם הופכת קשובה, מכילה, נעימה
+                יותר כלפי עצמי, וכלפי הסביבה.
               </p>
               <p class="attention-getter">
-                פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2
-                פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2 פסקה 2
+                אני מאמינה בחיבור של תנועה ונשימה על המזרן ובחיים שמחוצה לו,
+                בתרגול הפיזי נשלב נשימה, תנועה וחיבור. נוכל להיות גמישים יותר
+                תודעתית ותנועתית כאחד ולהיות טובים יותר ראשית כלפי עצמנו ומשם
+                כלפי הסובבים אותנו.
               </p>
               <p class="attention-getter" style="margin-bottom: 10rem">
-                פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3
-                פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3 פסקה 3
+                דרך היוגה אני חווה את דרך החיים, ויש לי זכות גדולה להזמין לדרך
+                היוגה אנשים נוספים, אז אשמח להיפגש ולחוות יחד דרך.
               </p>
 
               <!-- <div class="s-about__content-btn">
@@ -358,125 +511,6 @@
       </section>
       <!-- end s-testimonials -->
 
-      <!-- # menu block
-        ================================================== -->
-      <section class="s-menublock">
-        <div id="plans" class="row s-menublock__top">
-          <div class="column xl-8 lg-12">
-            <div class="s-menublock__content-header section-header">
-              <h2 class="text-display-title with-line">הסטודיו</h2>
-              <p class="attention-getter">
-                תקציר תקציר תקציר תקציר תקציר תקציר תקציר תקציר תקציר תקציר
-                תקציר תקציר תקציר תקציר
-              </p>
-            </div>
-            <!-- end s-menublock__content-header -->
-          </div>
-        </div>
-        <!-- end s-menublock__top -->
-
-        <div class="row">
-          <div class="column xl-12 menublock__slider-nav">
-            <div class="menublock-buttons">
-              <div class="menublock-btn-prev">
-                <svg
-                  clip-rule="evenodd"
-                  fill-rule="evenodd"
-                  stroke-linejoin="round"
-                  stroke-miterlimit="2"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z"
-                    fill-rule="nonzero"
-                  ></path>
-                </svg>
-              </div>
-              <div class="menublock-btn-next">
-                <svg
-                  clip-rule="evenodd"
-                  fill-rule="evenodd"
-                  stroke-linejoin="round"
-                  stroke-miterlimit="2"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m9.474 5.209s-4.501 4.505-6.254 6.259c-.147.146-.22.338-.22.53s.073.384.22.53c1.752 1.754 6.252 6.257 6.252 6.257.145.145.336.217.527.217.191-.001.383-.074.53-.221.293-.293.294-.766.004-1.057l-4.976-4.976h14.692c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-14.692l4.978-4.979c.289-.289.287-.761-.006-1.054-.147-.147-.339-.221-.53-.221-.191-.001-.38.071-.525.215z"
-                    fill-rule="nonzero"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <!-- end s-menublock__slider-nav -->
-        </div>
-
-        <div class="row s-menublock__slider-wrap">
-          <div class="column xl-12">
-            <div class="swiper-container s-menublock__slider">
-              <div class="swiper-wrapper">
-                <div class="s-menublock__slide swiper-slide">
-                  <div class="menublock-item">
-                    <div class="menublock-item__thumb">
-                      <img src="images/menu/steak.jpg" alt="" />
-                    </div>
-                    <div class="menublock-item__text">
-                      <h5>שיעורי יוגה</h5>
-                      <p>תקציר תוכנית</p>
-                    </div>
-                    <!-- <div class="menublock-item__price-wrap">
-                      <div class="menublock-item__price"><span>₪</span>18</div>
-                    </div> -->
-                  </div>
-                  <!-- end menublock-item -->
-                </div>
-                <!-- end s-menublock__slide -->
-
-                <div class="s-menublock__slide swiper-slide">
-                  <div class="menublock-item">
-                    <div class="menublock-item__thumb">
-                      <img src="images/menu/pasta.jpg" alt="" />
-                    </div>
-                    <div class="menublock-item__text">
-                      <h5>שיעורים פרטיים</h5>
-                      <p>תקציר תוכנית</p>
-                    </div>
-                    <!-- <div class="menublock-item__price-wrap">
-                      <div class="menublock-item__price"><span>₪</span>15</div>
-                    </div> -->
-                  </div>
-                  <!-- end menublock-item -->
-                </div>
-                <!-- end s-menublock__slide -->
-
-                <div class="s-menublock__slide swiper-slide">
-                  <div class="menublock-item">
-                    <div class="menublock-item__thumb">
-                      <img src="images/menu/toast.jpg" alt="" />
-                    </div>
-                    <div class="menublock-item__text">
-                      <h5>סדנאות</h5>
-                      <p>תקציר תוכנית</p>
-                    </div>
-                    <!-- <div class="menublock-item__price-wrap">
-                      <div class="menublock-item__price"><span>₪</span>10</div>
-                    </div> -->
-                  </div>
-                  <!-- end menublock-item -->
-                </div>
-                <!-- end s-menublock__slide -->
-              </div>
-              <!-- end swiper-wrapper -->
-            </div>
-            <!-- end s-menublock__slider -->
-          </div>
-        </div>
-        <!-- s-menublock__slider-wrap -->
-      </section>
-      <!-- end s-menublock -->
-
       <!-- # footer 
         ================================================== -->
       <footer id="footer" class="s-footer">
@@ -489,10 +523,8 @@
             </div> -->
 
             <p>
-              מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים
-              מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים
-              מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים
-              מילים מילים מילים מילים מילים מילים מילים מילים מילים מילים
+              מוזמנים לבוא לתרגל, ליצור קשר, לשאול שאלות, אל תפסיקו לחייך,
+              מחכה לכם, ירדן.
             </p>
           </div>
           <!-- end s-footer__about -->
